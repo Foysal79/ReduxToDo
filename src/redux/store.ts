@@ -3,7 +3,7 @@ import todoReducer from './features/todoSlice'
 
 export const store = configureStore({
     reducer : {
-        todo : todoReducer,
+        todos : todoReducer,
     },
 })
 // Infer the `RootState` and `AppDispatch` types from the store itself
